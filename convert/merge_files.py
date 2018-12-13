@@ -1,11 +1,12 @@
-""" StackBehavior - Tags Merge Topic Based
-This module is for merging tags count(s) files into one file.
+"""
+PSIT - music analysis
+merge monthly csv into year csv
 """
 import csv
 import os
 
-input_folder = './dataset/data/tag_counts/topic_based_year'
-output_file = './dataset/data/tag_counts/tags_count_topic_based_merged_year.csv'
+input_folder = './convert/monthy'
+output_file = './convert/year/regional-th-year-2017-2018.csv'
 
 def readBatch():
     """ Read all files in '/dataset/data/tag_counts/topic_based' """
