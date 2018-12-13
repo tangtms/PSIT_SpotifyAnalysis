@@ -2,19 +2,19 @@
 Data Analysis project on www.spotify.com to see Thai people activity on the music
 
 ## Objectives
-### Thai music/ International music
+#### Thai music/ International music
 People listen to Thai music and International music ratio
 
-### Stream count monthly
+#### Stream count monthly
 How many people listen to chart music of every month
 
-### Artist of the month
-### Artist of the year
+#### Artist of the month
+#### Artist of the year
 
-### Artist analysis
+#### Artist analysis
 Why this artist is popular
 
-### Thai music and International music analysis
+#### Thai music and International music analysis
 Why International music is more popular
 
 
