@@ -4,7 +4,7 @@ Data Analysis project on www.spotify.com to see Thai people activity on the musi
 ## Objectives
 #### Thai music/ International music
 People listen to Thai music and International music ratio
-
+![Alt text](./visualize/code_svg/pygal_pie_thai_national_ratio.py)
 #### Stream count monthly
 How many people listen to chart music of every month
 
