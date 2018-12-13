@@ -1,10 +1,10 @@
-	1)get weekly data from https://spotifycharts.com/regional/th/weekly/latest 2017.09 - 2018.09
-	2)turn into monthly data
-	3)turn into year data by python
-	4)turn monthly and year csv into dict
+done	1)get weekly data from https://spotifycharts.com/regional/th/weekly/latest 2017.09 - 2018.09
+done	2)turn into monthly data
+done	3)turn into year data by python
+done	4)turn monthly and year csv into dict
 	5)create graph (svg file)
 		normal graph
-		-graph thai/international
+done		-graph thai/international
 		-graph stream monthly (how many pp list to top chart music)
 		-graph artist of the month
 		-graph artist of the year
