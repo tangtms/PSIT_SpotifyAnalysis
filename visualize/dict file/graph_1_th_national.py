@@ -18,4 +18,4 @@ def th_national(data):
     th = (th/inter)*100
     inter = abs(th-100)
     print(th ,inter)
-th_national(dict_year_name.dict_year)
+th_national(dict_year.dict_year)
