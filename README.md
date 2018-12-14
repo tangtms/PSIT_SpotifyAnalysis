@@ -7,7 +7,7 @@ People listen to Thai music and International music ratio
 ![Alt text](./visualize/graph/graph_1.svg)
 #### Stream count monthly
 How many people listen to chart music of every month
-
+![Alt text](./visualize/graph/graph_2.svg)
 #### Artist of the month
 #### Artist of the year
 
