@@ -1,6 +1,7 @@
 import dict_month
-month1 = dict_month.dict_month_1
+import dict_year
+test = dict_year._year
 count = 0
-for i in month1.keys():
-    count += month1[i][0]
+for i in test.keys():
+    count += test[i][0]
 print(count)
