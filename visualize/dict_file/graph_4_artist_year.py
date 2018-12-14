@@ -12,3 +12,14 @@ def artist_year():
     for i in sort_artist_year:
         print(i, artist_year[i])
 artist_year()
+# ALL 247875921
+# The Toys 8534491
+# Atom Chanakan 7194833
+# BTS 7148502
+# BLACKPINK 6810406
+# Ed Sheeran 5794695
+# Room 39 5389441
+# Post Malone 4247444
+# Charlie Puth 4206773
+# Lauv 3703832
+# Lipta 3429268
