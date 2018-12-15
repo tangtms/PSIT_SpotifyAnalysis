@@ -5,9 +5,9 @@ done	4)turn monthly and year csv into dict
 	5)create graph (svg file)
 		normal graph
 done		-graph thai/international
-/nun		-graph stream monthly (how many pp list to top chart music)
+done		-graph stream monthly (how many pp list to top chart music)
 /new		-graph artist of the month
-/tang		-graph artist of the year
+done		-graph artist of the year
 		analysis graph
 		-artlist analysis (maybe LAUV, TheToys)
 		-nation analysis (why thai pp listen to international music)
