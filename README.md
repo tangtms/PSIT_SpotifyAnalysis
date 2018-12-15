@@ -11,10 +11,10 @@ How many people listen to chart music of every month
 #### Artist of the month
 #### Top 10 Artists of the year
 ![Alt text](./visualize/graph/graph_4.svg)
-#### Artist analysis
+#### Top 5 Artists Analysis
 Why this artist is popular
-
-#### Thai music and International music analysis
+![Alt text](./visualize/graph/graph_5.svg)
+#### Thai music and International music Analysis
 Why International music is more popular
 ![Alt text](./visualize/graph/graph_6.svg)
 
