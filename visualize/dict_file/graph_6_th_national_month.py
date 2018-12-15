@@ -18,10 +18,11 @@ def th_national_month(dic):
             #inter += 1 if lang != "th" else 0
         except:
             continue
+
+    th = (th/inter)*100
+    inter = abs(th-100)
     data_th.append(th)
     data_inter.append(inter)
-    #th = (th/inter)*100
-    #inter = abs(th-100)
     #print("th = %i\ninter = %i" %(th, inter))
 th_national_month(dict_month._1)
 th_national_month(dict_month._2)

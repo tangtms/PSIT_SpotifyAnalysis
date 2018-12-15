@@ -1,9 +1,9 @@
 import pygal
 
-line_chart = pygal.Line()
-line_chart.title = 'Thai music and International music analysis (Steams)'
+line_chart = pygal.StackedBar()
+line_chart.title = 'Thai music and International music analysis (in %)'
 line_chart.x_labels = ["Sep-2017", "Oct-2017", "Nov-2017", "Dec-2017", "Jan-2018", "Feb-2018", "March-2018", "April-2018", "May-2018", "June-2018", "Jul-2018", "Aug-2018"]
-line_chart.add('Thai Music',  [65, 57, 70, 82, 84, 93, 102, 78, 83, 85, 81, 88])
-line_chart.add('International Music',  [207, 187, 196, 199, 172, 161, 184, 189, 181, 196, 179, 199])
+line_chart.add('Thai Music',  [31.40096618357488, 30.481283422459892, 35.025380710659896, 41.91919191919192, 48.837209302325576, 56.79012345679012, 55.434782608695656, 40.526315789473685, 45.85635359116022, 43.36734693877551, 45.2513966480447, 45.68527918781726])
+line_chart.add('International Music',  [68.59903381642512, 69.5187165775401, 64.9746192893401, 58.08080808080808, 51.162790697674424, 43.20987654320988, 44.565217391304344, 59.473684210526315, 54.14364640883978, 56.63265306122449, 54.7486033519553, 54.31472081218274])
 
 line_chart.render_to_file('./visualize/graph/graph_6.svg')
