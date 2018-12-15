@@ -10,6 +10,6 @@ done		-graph stream monthly (how many pp list to top chart music)
 done		-graph artist of the year
 		analysis graph
 		-artlist analysis (maybe LAUV, TheToys)
-		-nation analysis (why thai pp listen to international music)
+done		-nation analysis (why thai pp listen to international music)
 	6)turn svg file to website
 	7)video presetation
