@@ -16,7 +16,7 @@ Why this artist is popular
 
 #### Thai music and International music analysis
 Why International music is more popular
-
+![Alt text](./visualize/graph/graph_6.svg)
 
 ## Data Sources
 #### [SpotifyCharts - Spotify](https://spotifycharts.com/regional/th/weekly/latest)
