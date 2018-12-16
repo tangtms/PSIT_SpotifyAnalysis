@@ -1,6 +1,10 @@
 import pygal
+from pygal.style import Style
+custom_style = Style(
+  colors=('#1ed65f', '#1e88e5', '#ff7043', '#ffa725', '#296d8b'), opacity='.85', opacity_hover='.95')
 
-line_chart = pygal.Line()
+
+line_chart = pygal.Line(style=custom_style, height=500, legend_at_bottom=True)
 line_chart.title = 'Top 5 Artist Analysis (Steams)'
 line_chart.x_labels = ["Sep-2017", "Oct-2017", "Nov-2017", "Dec-2017", "Jan-2018", "Feb-2018", "March-2018", "April-2018", "May-2018", "June-2018", "Jul-2018", "Aug-2018"]
 line_chart.add('The Toys',  [148038, 158252, 173662, 317829, 286394, 947799, 930720, 845147, 760934, 820052, 488381, 268830])
