@@ -1,6 +1,9 @@
 import pygal
+# from pygal.style import Style
+# custom_style = Style(
+#   colors=('#e1e1e1', '#e1e1e1'))
 
-pie_chart = pygal.Pie()
+pie_chart = pygal.Pie()#style=custom_style
 pie_chart.title = 'Top 10 Artists of the year (in Steams)'
 pie_chart.add('Other Artists', 191416236)
 pie_chart.add('The Toys', 8534491)

@@ -1,8 +1,10 @@
 import pygal
-
+from pygal.style import Style
+custom_style = Style(
+  colors=('#a741b8', '#a741b8', '#21b3f4', '#21b3f4', '#21b3f4', '#fe6a3c', '#fe6a3c', '#fe6a3c', '#a741b8', '#ea3975', '#ea3975', '#ea3975'))
 gauge = pygal.SolidGauge(
-    half_pie=True, inner_radius=0.70,
-    style=pygal.style.styles['default'](value_font_size=10))
+    style=custom_style, half_pie=True, inner_radius=0.70,
+    style=pygal.style.styles['default'](value_font_size=10), custom_style,)
 gauge.title = 'Artist of the month (In Steams)'
 
 steam_formatter = lambda x: '{:.10g}'.format(x)
