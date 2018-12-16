@@ -1,8 +1,24 @@
 import pygal
 
-line_chart = pygal.Line()
-line_chart.title = 'Stream Count Monthly (Sep2017 - Aug2018)'
-line_chart.x_labels = ["Sep-2017", "Oct-2017", "Nov-2017", "Dec-2017", "Jan-2018", "Feb-2018", "March-2018", "April-2018", "May-2018", "June-2018", "Jul-2018", "Aug-2018"]
-line_chart.add('Stream',  [11855136, 11792422, 12623657, 18617400, 15666801, 17376363, 22343773, 19096768, 20504672, 28945824, 25741811, 33877021])
+gauge = pygal.SolidGauge(
+    half_pie=True, inner_radius=0.70,
+    style=pygal.style.styles['default'](value_font_size=10))
+gauge.title = 'Artist of the month (In Steams)'
 
-line_chart.render_to_file('./visualize/graph/graph_2.svg')
+steam_formatter = lambda x: '{:.10g} Steams'.format(x)
+gauge.value_formatter = steam_formatter
+
+gauge.add('Sep-2017', [{'value': 1015354, 'max_value': 11855136}])
+gauge.add('Oct-2017', [{'value': 749997, 'max_value': 11792422}])
+gauge.add('Nov-2017', [{'value': 623141, 'max_value': 12623657}])
+gauge.add('Dec-2017', [{'value': 1003178, 'max_value': 18617400}])
+gauge.add('Jan-2017', [{'value': 681125, 'max_value': 15666801}])
+gauge.add('Feb-2018', [{'value': 947799, 'max_value': 17376363}])
+gauge.add('March-2018', [{'value': 930720, 'max_value': 22343773}])
+gauge.add('April-2018', [{'value': 845147, 'max_value': 19096768}])
+gauge.add('May-2018', [{'value': 870979, 'max_value': 20504672}])
+gauge.add('June-2018', [{'value': 1523603, 'max_value': 28945824}])
+gauge.add('Jul-2018', [{'value': 1860023, 'max_value': 25741811}])
+gauge.add('Aug-2018', [{'value': 1967870, 'max_value': 33877021}])
+
+gauge.render_to_file('./visualize/graph/graph_3.svg')
