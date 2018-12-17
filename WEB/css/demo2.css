@@ -31,6 +31,8 @@ h2 {
 
 p {
 	margin: 0 0 15px 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #000000;
 }
 
 a {
@@ -136,43 +138,41 @@ a {
   background-size: cover;
 	
 }
-
+.sm {
+	height: 110px;
+	background-color: #1ed65f;
+}
 .s1 {
-	background: #737373;
-	color:#fff;
-	height: 900px;
+	background: #FFF;
 	
 }
 
 
 .s2 {
-	background: #3FED73;
-}
-.s2 a {
-	color: #fff;
+	background: #FFF;
 }
 
+
 .s3 {
-	background: #1b83b3;
+	background: #FFF;
 }
 
 
 .s4 {
-	background: #5aa3c4;
+	background: #FFF;
 }
 
 
 
 .s5 {
-	background: #bce1f1;
-	color: #3d3d3d;
+	background: #FFF;
 }
 
 .s6 {
-	background: #161616;
+	background: #FFF;
+	hight: 800px;
 }
-
-
-
-
-
+.s7{
+	height: 100px
+	
+}
