@@ -21,8 +21,16 @@ Why International music is more popular
 
 ## Data Sources
 #### [SpotifyCharts - Spotify](https://spotifycharts.com/regional/th/weekly/latest)
-
+##### Data Range - September 2017 - August 2018* (1 Years)
 
 ## Built-With
 * Python `3.7.0`
     * pygal `2.0.0`
+
+## Authors
+* นายธนวัฒน์ เขมวัชรเลิศ - 61070074 - [zimbo333](https://github.com/zimbo333)
+* นายธรรมสรณ์ ตันติยาภินันท์ - 61070084 - [tangtms](https://github.com/tangtms)
+* นายนันทวัฒน์ สุธางค์กรกุล - 61070103 - [nun0289](https://github.com/nun0289)
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
