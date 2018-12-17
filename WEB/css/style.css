@@ -1,5 +1,5 @@
 body {
-  background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEX4+Pj09PQf/c7fAAAAGklEQVR4Xq3MIQEAAADDIPqX/kvMIMEWEm8O7b0/wewc/NcAAAAASUVORK5CYII=) repeat;
+  background: #1ed65f;
 }
 
 .block {
@@ -12,16 +12,15 @@ body {
 }
 
 .animatable {
-  
-  /* initially hide animatable objects */
-  visibility: hidden;
-  
-  /* initially pause animatable objects their animations */
-  -webkit-animation-play-state: paused;   
-  -moz-animation-play-state: paused;     
-  -ms-animation-play-state: paused;
-  -o-animation-play-state: paused;   
-  animation-play-state: paused; 
+	/* initially hide animatable objects */
+	visibility: hidden;
+	/* initially pause animatable objects their animations */
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
+	font-size: medium;
 }
 
 /* show objects being animated */

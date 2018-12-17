@@ -11,28 +11,34 @@ body {
 }
 
 h1, h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	margin:0 0 15px 0;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-weight: normal;
+    margin: 0 0 15px 0;
 }
 
 
 h1 {
-	font-size: 36px;
+	font-size: 20px;
 	letter-spacing: -1px;
 	line-height: 100%;
+	text-shadow: 0px 0px #000000;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	color: #000000;
 }
 
 
 h2 {
-	font-size: 24px;
+	font-size: small;
 }
 
 
 p {
 	margin: 0 0 15px 0;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	color: #000000;
+	padding-top: 3px;
+	font-size: 24px;
 }
 
 a {
@@ -138,8 +144,13 @@ a {
   background-size: cover;
 	
 }
+.ss{
+	height: 200px;
+	background: #fbfbfb;
+;
+}
 .sm {
-	height: 110px;
+	height: 100px;
 	background-color: #1ed65f;
 }
 .s1 {
@@ -149,7 +160,7 @@ a {
 
 
 .s2 {
-	background: #FFF;
+	background: #fbfbfb;
 }
 
 
@@ -159,7 +170,7 @@ a {
 
 
 .s4 {
-	background: #FFF;
+	background: #fbfbfb;
 }
 
 
@@ -169,10 +180,13 @@ a {
 }
 
 .s6 {
-	background: #FFF;
-	hight: 800px;
+	background: #fbfbfb;
 }
 .s7{
-	height: 100px
+	height: 100px;
 	
+}
+.s100{
+	height: 100px;
+	background: #171717;
 }
