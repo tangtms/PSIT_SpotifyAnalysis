@@ -2,40 +2,41 @@
 
 
 body {
-	font-family: Helvetica, Arial, Verdana, sans-serif;
 	color: #e5e5e5;
 	font-size: 12px;
 	background:#bfbfbf;
+	font-family: 'Kanit', sans-serif;
 
 	
 }
 
 h1, h2 {
-    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     font-weight: normal;
     margin: 0 0 15px 0;
+    font-family: 'Kanit', sans-serif;
 }
 
 
 h1 {
-	font-size: 20px;
+	font-size: 18px;
 	letter-spacing: -1px;
 	line-height: 100%;
 	text-shadow: 0px 0px #000000;
 	-webkit-box-shadow: 0px 0px;
 	box-shadow: 0px 0px;
 	color: #000000;
+	font-family: 'Kanit', sans-serif;
 }
 
 
 h2 {
-	font-size: small;
+	font-size: x-large;
+	color: #333333;
 }
 
 
 p {
 	margin: 0 0 15px 0;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	color: #000000;
 	padding-top: 3px;
 	font-size: 24px;
@@ -151,7 +152,8 @@ a {
 }
 .sm {
 	height: 100px;
-	background-color: #1ed65f;
+	background-color: #fbfbfb;
+	font-family: "Proxima Nova Lt";
 }
 .s1 {
 	background: #FFF;
@@ -164,7 +166,7 @@ a {
 }
 
 
-.s3 {
+.s8 {
 	background: #FFF;
 }
 
@@ -189,4 +191,17 @@ a {
 .s100{
 	height: 100px;
 	background: #171717;
+}
+.section.s1 table tr td .block.animatable.bounceIn {
+	font-weight: bold;
+	font-size: 18px;
+}
+.section.s1 table tr td .block.animatable.bounceIn h1 {
+	font-size: 36px;
+}
+.section.s1 table tr td .block.animatable.bounceIn h1 {
+	font-size: 18px;
+}
+.section.s2 table tr td .block.animatable.bounceIn .s8 {
+	font-size: 18px;
 }

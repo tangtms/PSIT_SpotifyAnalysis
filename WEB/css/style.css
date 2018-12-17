@@ -1,5 +1,7 @@
 body {
-  background: #1ed65f;
+  background: #FFF;
+  width: 100%;
+  font-family: 'Kanit', sans-serif;
 }
 
 .block {
@@ -20,7 +22,8 @@ body {
 	-ms-animation-play-state: paused;
 	-o-animation-play-state: paused;
 	animation-play-state: paused;
-	font-size: medium;
+	font-size: 12px;
+	text-align: left;
 }
 
 /* show objects being animated */
