@@ -24,6 +24,7 @@ body {
 	animation-play-state: paused;
 	font-size: 12px;
 	text-align: left;
+	font-weight: bold;
 }
 
 /* show objects being animated */
