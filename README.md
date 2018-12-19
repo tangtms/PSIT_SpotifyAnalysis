@@ -27,6 +27,14 @@
 #### [SpotifyCharts - Spotify](https://spotifycharts.com/regional/th/weekly/latest)
 ##### **ช่วงเวลาของข้อมูล -** September 2017 - August 2018* (1 ปี)
 
+### Directory Structure
+* `data` - all csv file
+* `convert` - Python file merge csv together and covert to dict
+* `visualize`
+  * `dict_file` - Dict and Python file
+  * `graph` - 6 graphs svg file
+* `web` - Project's Website
+
 ## Built-With
 * Python `3.7.0`
     * pygal `2.0.0`
