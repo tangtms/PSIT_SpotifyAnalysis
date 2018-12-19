@@ -19,6 +19,10 @@
 #### Thai music and International music Analysis
 กราฟอัตราการส่วนการฟังเพลงของศิลปินในแต่ละเดือน
 
+## Results
+* [Website](http://www.it.kmitl.ac.th/~it61070103/WEB/index.html)
+* [Youtube](https://youtu.be/8BghPck5udw)
+
 ## Data Sources
 #### [SpotifyCharts - Spotify](https://spotifycharts.com/regional/th/weekly/latest)
 ##### Data Range - September 2017 - August 2018* (1 Years)
