@@ -6,17 +6,17 @@
 สตรีมมิ่งเพลงถึงสูงขึ้นในช่วงๆหนึ่ง
 
 ## Topics
-#### Thai music/ International music
+* Thai music/ International music
 อัตราส่วนเพลงไทย/เพลงนานาชาติ
-#### Stream count monthly
+* Stream count monthly
 กราฟยอดสตรีมมิ่งรายเดือน
-#### Artist of the month
+* Artist of the month
 กราฟอัตราการส่วนการฟังเพลงของศิลปินในแต่ละเดือน
-#### Top 10 Artists of the year
+* Top 10 Artists of the year
 10 อันดับศิลปินแห่งปี
-#### Top 5 Artists Analysis
+* Top 5 Artists Analysis
 ยอดสตรีมมิ่งรายเดือนของศิลปิน 5 อันดับแรก
-#### Thai music and International music Analysis
+* Thai music and International music Analysis
 กราฟอัตราการส่วนการฟังเพลงของศิลปินในแต่ละเดือน
 
 ## Results
