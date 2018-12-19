@@ -25,7 +25,7 @@
 
 ## Data Sources
 #### [SpotifyCharts - Spotify](https://spotifycharts.com/regional/th/weekly/latest)
-##### Data Range - September 2017 - August 2018* (1 Years)
+##### ช่วงเวลาของข้อมูล - September 2017 - August 2018* (1 ปี)
 
 ## Built-With
 * Python `3.7.0`
