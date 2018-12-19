@@ -27,7 +27,7 @@
 #### [SpotifyCharts - Spotify](https://spotifycharts.com/regional/th/weekly/latest)
 ##### **ช่วงเวลาของข้อมูล -** September 2017 - August 2018* (1 ปี)
 
-### Directory Structure
+## Directory Structure
 * `data` - ไฟล์ csv ทั้งหมด
 * `convert` - ไฟล์ python รวม csv เข้าด้วยกันและแปลงเป็น dict
 * `visualize`
@@ -39,7 +39,7 @@
 * Python `3.7.0`
     * pygal `2.0.0`
 
-## Authors
+## Authors - สามเกลอสยึมกึ๋ย
 * นายธนวัฒน์ เขมวัชรเลิศ - 61070074 - [zimbo333](https://github.com/zimbo333)
 * นายธรรมสรณ์ ตันติยาภินันท์ - 61070084 - [tangtms](https://github.com/tangtms)
 * นายนันทวัฒน์ สุธางค์กรกุล - 61070103 - [nun0289](https://github.com/nun0289)
