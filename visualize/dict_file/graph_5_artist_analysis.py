@@ -24,7 +24,7 @@ def artist_analysis(data):
     atom.append(artist["Atom Chanakan"])
     blackpink.append(artist["BLACKPINK"])
     ed.append(artist["Ed Sheeran"])
-
+print("RESULT #5")
 artist_analysis(dict_month._1)
 artist_analysis(dict_month._2)
 artist_analysis(dict_month._3)

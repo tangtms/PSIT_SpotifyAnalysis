@@ -5,6 +5,7 @@ def main():
     all_month = []
     for i in list_all_month:
         all_month.append(sum_month(i))
+    print("RESULT #2")
     print(all_month)
 def sum_month(data):
     count = 0

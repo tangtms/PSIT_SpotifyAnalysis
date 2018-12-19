@@ -17,5 +17,7 @@ def th_national(data):
         # else: lang_dict[lang] += 1
     th = (th/inter)*100
     inter = abs(th-100)
-    print(th ,inter)
-th_national(dict_year.dict_year)
+    print("RESULT #1")
+    print("th %.3f" %th)
+    print("inter %.3f" %inter)
+th_national(dict_year._year)

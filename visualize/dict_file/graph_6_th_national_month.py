@@ -24,6 +24,7 @@ def th_national_month(dic):
     data_th.append(th)
     data_inter.append(inter)
     #print("th = %i\ninter = %i" %(th, inter))
+
 th_national_month(dict_month._1)
 th_national_month(dict_month._2)
 th_national_month(dict_month._3)
@@ -37,5 +38,6 @@ th_national_month(dict_month._10)
 th_national_month(dict_month._11)
 th_national_month(dict_month._12)
 th_national_month(dict_month._13)
-print(data_th, data_inter, sep="\n")
-
+print("RESULT #6")
+print(th, data_th, sep="\n")
+print(inter ,data_inter ,sep="\n")

@@ -8,7 +8,7 @@ def artist_of_month(data):
             artist_month[data[i][1]] += data[i][0]
     sort_artist_month = [v[0] for v in sorted(artist_month.items(), key=lambda i: (-i[1], i[0]))]
     print(sort_artist_month[0], artist_month[sort_artist_month[0]])
-
+print("RESULT #3")
 artist_of_month(dict_month._1)
 artist_of_month(dict_month._2)
 artist_of_month(dict_month._3)
