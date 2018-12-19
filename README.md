@@ -1,23 +1,23 @@
 # TopChart Music Analysis
-Data Analysis project on www.spotify.com to see Thai people activity on the music
+    มีวัตถุประสงค์เพื่อ วิเคราะห์พฤติกรรมการฟังเพลงของคนไทยที่ใช้บริการ Spotify
+โดยสถิติที่เรานำมาวิเคราะห์ได้มาจากเว็บของ Spotifyโดยตรง ซึ่งที่ข้อมูลเรานำมาใช้นั้น
+เริ่มตั้งแต่เดือนกันยายน 2017 – สิงหาคม 2018 โดยจำแนกตามประเภท เพลงไทย/ต่างประเทศ
+ศิลปินยอดนิยมประจำเดือน/ประจำปี วิเคราะห์ศิลปิน และวิเคราะห์ปัจจัยที่ทำให้ยอดอัตราการ
+สตรีมมิ่งเพลงถึงสูงขึ้นในช่วงๆหนึ่ง
 
-## Objectives
+## Topics
 #### Thai music/ International music
-People listen to Thai music and International music ratio
-![Alt text](./visualize/graph/graph_1.svg)
+อัตราส่วนเพลงไทย/เพลงนานาชาติ
 #### Stream count monthly
-How many people listen to chart music of every month
-![Alt text](./visualize/graph/graph_2.svg)
+กราฟยอดสตรีมมิ่งรายเดือน
 #### Artist of the month
-![Alt text](./visualize/graph/graph_3.svg)
+กราฟอัตราการส่วนการฟังเพลงของศิลปินในแต่ละเดือน
 #### Top 10 Artists of the year
-![Alt text](./visualize/graph/graph_4.svg)
+10 อันดับศิลปินแห่งปี
 #### Top 5 Artists Analysis
-Why this artist is popular
-![Alt text](./visualize/graph/graph_5.svg)
+ยอดสตรีมมิ่งรายเดือนของศิลปิน 5 อันดับแรก
 #### Thai music and International music Analysis
-Why International music is more popular
-![Alt text](./visualize/graph/graph_6.svg)
+กราฟอัตราการส่วนการฟังเพลงของศิลปินในแต่ละเดือน
 
 ## Data Sources
 #### [SpotifyCharts - Spotify](https://spotifycharts.com/regional/th/weekly/latest)
